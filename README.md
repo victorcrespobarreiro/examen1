@@ -79,3 +79,13 @@ Comprobamos con los comandos:
 Para mostrar los logs de servicio podemos hacer click en "view logs" o utilizar el comando:
 
     docker logs dns-server
+
+### 10. Realiza el apartado 9 en la máquina virtual con DNS.
+
+Para realizar el apartado 9 en máquina virtual creamos el archivo en  /var/lib/bind
+
+Luego debemos instalar dnsutils para poder utilizar el dig.
+
+Para utilizar el dig debemos poner la ip de la máquina virtual en lugar de la del contenedor.
+
+Para poder ver los logs debemos ir a logs con cd /var/log y hacer un "cat" a auth.log
